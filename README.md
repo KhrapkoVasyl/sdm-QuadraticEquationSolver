@@ -29,11 +29,11 @@ Lab work on software development methodologies.
 
 The console application solves quadratic equations in two modes:
 
-- [Interactive](#interactive)
+- [Interactive mode](#interactive)
 
 - [Non-interactive (file) mode](#non-interactive-file-mode)
 
-### Interactive
+### Interactive mode
 
 In interactive mode, the application starts when no argument from console has been passed to it. In this mode, the application asks you to enter 3 coefficients in turn: a, b and c, displays the resulting equation on the screen and the found roots. NOTE! The coefficients must be real numbers, otherwise the application will ask you to enter them again. It is also impossible to set the value of the coefficient a equal to zero, in this case the application will also generate an error.
 
