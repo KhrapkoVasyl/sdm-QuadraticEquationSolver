@@ -3,7 +3,7 @@
 const findRoots = ([a, b, c]) => {
   if (a === 0) {
     console.log('Error. a cannot be 0');
-    return;
+    process.exit(1);
   }
   console.log(`Equation is: (${a}) x^2 + (${b}) x + (${c}) = 0`);
   const discriminant = b ** 2 - 4 * a * c;
@@ -26,3 +26,5 @@ const findRoots = ([a, b, c]) => {
     console.log('There are 0 roots');
   }
 };
+
+module.exports = findRoots;
