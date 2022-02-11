@@ -22,3 +22,5 @@ const getParametersFromConsole = (nameA = 'a', nameB = 'b', nameC = 'c') => {
   }
   return paramsArr;
 };
+
+module.exports = getParametersFromConsole;

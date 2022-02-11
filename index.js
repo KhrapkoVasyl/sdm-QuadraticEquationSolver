@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const findRoots = require('./findRoots');
+const getParametersFromConsole = require('./readCoefFromConsole');
 
 // added \s before \n due to the specific reading of the file by Node.js
 const regexp = /^-?\d+\.?\d*\s\-?\d+\.?\d*\s\-?\d+\.?\d*\s\n$/s;
@@ -21,4 +22,7 @@ if (process.argv.length >= 3) {
     console.log(err.message);
     process.exit(1);
   }
+} else {
+  const params = getParametersFromConsole();
+  findRoots(params);
 }
