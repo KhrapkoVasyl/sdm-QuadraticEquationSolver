@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/KhrapkoVasyl/sdm-QuadraticEquationSolver/issues"
   },
-  "homepage": "https://github.com/KhrapkoVasyl/sdm-QuadraticEquationSolver#readme"
+  "homepage": "https://github.com/KhrapkoVasyl/sdm-QuadraticEquationSolver#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
